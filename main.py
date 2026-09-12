@@ -1,3 +1,4 @@
+from reporter import export_to_csv
 from log_reader import read_log_file
 from parser import parse_log_line
 from detector import run_all_detectors
@@ -18,3 +19,4 @@ aaa=detect_brute_force(parsed_logs_list)
 if aaa:
     all_findings.extend(aaa)
 print(all_findings)
+export_to_csv(all_findings, "output/findings.csv")
