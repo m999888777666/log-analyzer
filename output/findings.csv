@@ -1,5 +1,0 @@
-timestamp,source_ip,event_type,severity,user,message,failed_attempts
-2026-09-10 10:15:30,192.168.1.50,FAILED_LOGIN,LOW,admin,Failed password for admin,
-2026-09-10 10:17:12,192.168.1.50,FAILED_LOGIN,LOW,admin,Failed password for admin,
-2026-09-10 10:17:45,192.168.1.50,FAILED_LOGIN,LOW,admin,Failed password for admin,
-,192.168.1.50,BRUTE_FORCE_ATTACK,HIGH,,3 failed login attempts detected from address 192.168.1.50.,3
