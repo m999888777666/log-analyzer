@@ -1,8 +1,12 @@
+from banner import show_banner
 from reporter import export_to_csv
 from log_reader import read_log_file
 from parser import parse_log_line
 from detector import run_all_detectors
 from analyzer import detect_brute_force
+import time
+show_banner()
+time.sleep(3)
 log_file="logs/sample.log"
 raw_logs=list()
 raw_logs=read_log_file(log_file)
